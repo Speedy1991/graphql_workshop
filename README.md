@@ -6,7 +6,7 @@
 - pip
 
 #### Installation
-- `git clone https://github.com/speedy1991/pyconweb2019graphql.git`
+- `git clone https://github.com:Speedy1991/pyconweb2019graphql.git`
 - `cd pyconweb2019graphql`
 - If you want to use a virtual environment: https://virtualenv.pypa.io/en/stable/userguide/
 - `pip install -r requirements.txt`
