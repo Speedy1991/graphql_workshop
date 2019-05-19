@@ -9,7 +9,7 @@ class Query(graphene.ObjectType):
     # TODO: modules
 
     def resolve_professors(self, info, **kwargs):
-        return Professor.objects.all()
+        return Professor.objects.all()  # HINT: See the README Django Cheatsheet
 
-    # TODO: Write resolver for students
-    # TODO: Write resolver for modules
+    # TODO: Write a resolver for students
+    # TODO: Write a resolver for modules
