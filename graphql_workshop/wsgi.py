@@ -1,5 +1,5 @@
 """
-WSGI config for pyconweb2019graphql project.
+WSGI config for graphql_workshop project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pyconweb2019graphql.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'graphql_workshop.settings')
 
 application = get_wsgi_application()

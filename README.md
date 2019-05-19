@@ -13,14 +13,14 @@
 - [python3.5](https://www.python.org/downloads/) or greater + pip
 
 #### Pre-Workshop Instructions/Requirements
-- `git clone https://github.com:Speedy1991/pyconweb2019graphql.git`
-- `cd pyconweb2019graphql`
+- `git clone https://github.com:Speedy1991/graphql-workshop.git`
+- `cd graphql-workshop`
 - If you want to use a virtual environment click [here](https://virtualenv.pypa.io/en/stable/userguide/) for instructions 
 - `pip install -r requirements.txt`
 - `python manage.py migrate`
 - `python manage.py loaddata`
 
-#### Test if everything works fine:
+#### Test your setup
 - `python -v`
 - `python manage.py runserver`
 - Open your browser and visit `http://127.0.0.1:8000/admin` and try to login with `admin:12345`
@@ -34,25 +34,25 @@ This is the minimum workshop setup. Please prepare the project as describe above
 4) Write a custom resolver
     * Add Query Arguments
 5) Write a mutation
+6) Refactor
+    * Replace mutation arguments with an _InputType_
     * Use _EnumType_
-6) Refactor: replace arguments with an _InputType_
-7) Extra exercises
-    * Refactor: Clean up your code with _AbstractType_
-    * Interfaces and Polymorphic
+7) Some LiveCoding with AbstractTypes, Interfaces, Polymorphic, etc.
 
 ## Working through it
 This is a very exercise-heavy workshop. You'll finde the exercises in the _workshop/exercise[number]_ directory.
+Don't forget to change the used schema in the core settings (L51).
 
 ## Helpful shortcuts
 - _TODO:_ This is **your** job
 - _DOCS:_ This will give you a link to the specific doc page
 - _DJANGO:_ This will help you with some django specific code
 - _HINT:_ This will give you some useful tips
+- _QUESTION:_ Try to answer the question yourself - if you don't find the answer, feel free to ask :)
 
 ## Django Cheatsheet
 - `SELECT * FROM <table>` -> `<ModelName>.objects.all()`
 - `SELECT * FROM <table> WHERE id=<id>` -> `<ModelName>.objects.get(id=id)` (raises if not exist)
-- `SELECT * FROM <table> WHERE id=<id>` -> `<ModelName.objects.filter(id=id).first()` (returns None if not exist)
 
 
 #### License
