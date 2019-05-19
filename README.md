@@ -13,7 +13,7 @@
 - [python3.5](https://www.python.org/downloads/) or greater + pip
 
 #### Pre-Workshop Instructions/Requirements
-- `git clone https://github.com:Speedy1991/graphql-workshop.git`
+- `git clone https://github.com:Speedy1991/graphql_workshop.git`
 - `cd graphql-workshop`
 - If you want to use a virtual environment click [here](https://virtualenv.pypa.io/en/stable/userguide/) for instructions 
 - `pip install -r requirements.txt`
@@ -40,7 +40,7 @@ This is the minimum workshop setup. Please prepare the project as describe above
 7) Some LiveCoding with AbstractTypes, Interfaces, Polymorphic, etc.
 
 ## Working through it
-This is a very exercise-heavy workshop. You'll finde the exercises in the _workshop/exercise[number]_ directory.
+This is a very exercise-heavy workshop. You'll finde the exercises in the _graphql_workshop/exercise[number]_ directory.
 Don't forget to change the used schema in the core settings (L51).
 
 ## Helpful shortcuts
