@@ -12,9 +12,8 @@
 - [git](https://git-scm.com/) v2 or greater
 - [python3.5](https://www.python.org/downloads/) or greater + pip
 
-
 ----
-## Follow one of the install instructions (1,2)
+## Follow one of the installation instructions (1,2)
 This is the minimum workshop setup. Please prepare the project as described below.
 
 #### 1) Pre-Workshop Instructions/Requirements (install)
@@ -49,7 +48,7 @@ This is the minimum workshop setup. Please prepare the project as described belo
 
 ## Working through it
 This is a very exercise-heavy workshop. You'll finde the exercises in the _graphql_workshop/exercise[number]_ directory.
-Don't forget to change the used schema in the core settings (L51).
+Don't forget to change the used schema in the [settings](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51).
 
 ## Helpful shortcuts
 - _TODO:_ This is **your** job
