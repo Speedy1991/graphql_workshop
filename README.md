@@ -5,7 +5,6 @@
 - _Query_
 - _Mutation_
 - _GraphQL Schema Language_
-- _Concurrency_
 
 
 #### System Requirements

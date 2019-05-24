@@ -23,7 +23,8 @@ modules(startsWith: "Ma") {
 - Follow the TODO's in the file
 
 ## Questions
-Is this a valid query? Why? Why not?
+- Why can't we use a DjangoObjectType on the main Query?
+- Is this a valid query? Why? Why not?
 
 ```
 students {
