@@ -8,8 +8,7 @@ At the moment we can't query anything related (e.g. _modules_) on the _Professor
 
 ## TODO
 
-- Open [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise2/schema/types.py)
-- Follow the TODO's in the file
+- [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise2/schema/types.py)
 
 ## Questions
 

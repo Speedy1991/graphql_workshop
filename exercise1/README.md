@@ -7,8 +7,7 @@ Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/grap
 - Fill the fields with the related scalar types
 
 ## 2) Write resolvers
-- Open [query.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise1/schema/query.py)
-- Define the fields and resolvers
+- [query.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise1/schema/query.py)
 
 ## Questions
 

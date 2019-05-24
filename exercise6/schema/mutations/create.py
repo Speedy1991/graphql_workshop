@@ -9,17 +9,17 @@ class AddStudentMutation(graphene.Mutation):
     student = graphene.Field(StudentType)
 
     class Arguments:
-        # TODO 0: Move this fields to input_types.py and add a student field (StudentInputType)
+        # TODO 0: Move this fields to input_types.py and add a student_input field (StudentInputType)
         # DOCS: https://docs.graphene-python.org/en/latest/types/mutations/#inputfields-and-inputobjecttypes
         name = graphene.String()
         age = graphene.Int()
         semester = graphene.Int()
         favourite_module = graphene.ID(required=False)
 
-    # TODO: 1: Refactor the mutate method. It will only receive self, info, student
+    # TODO: 1: Refactor the mutate method. It will only receive self, info, student_input
     def mutate(self, info, name, age, semester):
         # TODO 2: Refactor the create method
-        # INFO: We can do some kwargs spreading: models.Student.objects.create(**student)
+        # INFO: We can do some kwargs spreading: models.Student.objects.create(**student_input)
         student = models.Student.objects.create(name=name, age=age, semester=semester)
         return AddStudentMutation(student=student)
 

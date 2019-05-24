@@ -17,10 +17,8 @@ modules(startsWith: "Ma") {
 
 ## TODO
 
-- Open [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise4/schema/types.py)
-- Follow the TODO's in the file
-- Open [query.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise4/schema/query.py)
-- Follow the TODO's in the file
+- [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise4/schema/types.py)
+- [query.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise4/schema/query.py)
 
 ## Questions
 - Why can't we use a DjangoObjectType on the main Query?

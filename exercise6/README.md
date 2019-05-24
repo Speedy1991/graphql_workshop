@@ -9,12 +9,12 @@ Let's refactor the mutations!!
 
 ## TODO
 
-- Open [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise4/schema/types.py)
-- Follow the TODO's in the file
-- Fix [mutations/__init__.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise5/schema/mutations/__init__.py)
+- [create.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise6/schema/mutations/create.py)
+- [input_types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise6/schema/mutations/input_types.py)
+- [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise6/schema/types.py)
 
 ## Questions
-What must be changed to get this mutation result?
+What are inputTypes good for?
 
 ```
 {
@@ -34,15 +34,12 @@ What must be changed to get this mutation result?
 Mutation:
 ```
 mutation {
-  addStudent(age: 11, name: "amanda", semester: 1) {
+  addStudent(studentInput: {name: "Paulaner", age: 22, semester: FIRST}) {
     student {
-      id
       name
-      semester
     }
   }
 }
-
 ```
 
 Result:
@@ -52,9 +49,7 @@ Result:
   "data": {
     "addStudent": {
       "student": {
-        "id": "13",
-        "name": "amanda",
-        "semester": "A_1"
+        "name": "Paulaner"
       }
     }
   }

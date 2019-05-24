@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 GRAPHENE = {
-    'SCHEMA': 'exercise1.schema.schema'
+    'SCHEMA': 'exercise6.schema.schema'
 }
 
 MIDDLEWARE = [

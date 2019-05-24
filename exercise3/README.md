@@ -9,8 +9,7 @@ We have a lot of boilerplate code - it has to be easier!!
 
 ## TODO
 
-- Open [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise3/schema/types.py)
-- Follow the TODO's in the file
+- [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise3/schema/types.py)
 
 ## Questions
 - Why can't we use a DjangoObjectType on the main Query?
