@@ -2,7 +2,7 @@ import graphene
 from .types import ProfessorType, StudentType, ModuleType
 from core.models import Student, Professor, Module
 
-# QUESTION: Why can't we use a DjangoObjectType on the main Query?
+
 class Query(graphene.ObjectType):
     professors = graphene.List(ProfessorType)
     students = graphene.List(StudentType)

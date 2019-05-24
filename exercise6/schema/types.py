@@ -4,12 +4,17 @@ from graphene_django import DjangoObjectType
 
 
 class ProfessorType(DjangoObjectType):
+    modules = graphene.List(lambda: ModuleType)
+
     class Meta:
         model = models.Professor
         only_fields = ("id", "name", "age")
 
+    def resolve_modules(self, info, **kwargs):
+        return self.module_set.all()
 
-class StudentType(graphene.ObjectType):
+
+class StudentType(DjangoObjectType):
     modules = graphene.List(lambda: ModuleType)
 
     class Meta:
@@ -20,7 +25,8 @@ class StudentType(graphene.ObjectType):
         return self.module_set.all()
 
 
-class ModuleType(graphene.ObjectType):
+class ModuleType(DjangoObjectType):
+
     class Meta:
         model = models.Module
         only_fields = ("id", "name", "professor", "students")

@@ -8,11 +8,12 @@ from core import models
 # I won't explain it in the workshop because this is only Django related - but feel free to talk about this feature with me in the breaks :)
 class AddStudentMutation(graphene.Mutation):
     # DOCS: https://docs.graphene-python.org/projects/django/en/latest/mutations/#simple-example
-    # TODO 0: The mutation should return a StudentType
-    # student = graphene.Field(StudentType)
+    # TODO 0: The mutation has a student field (StudentType)
+    student = graphene.Field(StudentType)
 
     class Arguments:
-        # TODO 1: Define the fields, needed by the Model (name, age, semester)
+        # TODO 1: Define the fields, needed to create a student (name, age, semester)
+        # HINT: semester is an integer
         pass
 
     # HINT: Every mutation needs a mutate method. The mutate method is called with self, info, **arguments

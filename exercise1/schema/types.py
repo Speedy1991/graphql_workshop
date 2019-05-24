@@ -13,7 +13,7 @@ class StudentType(graphene.ObjectType):
     # TODO 2: id
     # TODO 3: age
     # TODO 4: name
-    # TODO 5: semester
+    # TODO 5: semester (String)
 
 
 class ModuleType(graphene.ObjectType):

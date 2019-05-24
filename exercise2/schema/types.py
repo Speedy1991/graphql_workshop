@@ -20,7 +20,7 @@ class StudentType(graphene.ObjectType):
     id = graphene.ID()
     age = graphene.Int(required=True)
     name = graphene.String(required=True)
-    semester = graphene.Int(required=True)
+    semester = graphene.String(required=True)
     # TODO 3: add modules
     # TODO 4: add favourite_subject
 
