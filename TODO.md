@@ -1,3 +1,0 @@
-- Dump example data + userlogin
-- Add assets + link them in the readme
-- Add an exercise readme per exercise

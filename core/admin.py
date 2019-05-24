@@ -14,6 +14,7 @@ class ProfessorAdmin(admin.ModelAdmin):
 
 class StudentAdmin(admin.ModelAdmin):
     autocomplete_fields = ["favourite_module"]
+    list_display = ["name", "favourite_module"]
 
 
 admin.site.register(models.Professor, ProfessorAdmin)

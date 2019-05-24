@@ -12,20 +12,28 @@
 - [git](https://git-scm.com/) v2 or greater
 - [python3.5](https://www.python.org/downloads/) or greater + pip
 
-#### Pre-Workshop Instructions/Requirements
+
+----
+## Follow one of the install instructions (1,2)
+This is the minimum workshop setup. Please prepare the project as described below.
+
+#### 1) Pre-Workshop Instructions/Requirements (install)
 - `git clone https://github.com:Speedy1991/graphql_workshop.git`
 - `cd graphql-workshop`
 - If you want to use a virtual environment click [here](https://virtualenv.pypa.io/en/stable/userguide/) for instructions 
 - `pip install -r requirements.txt`
 - `python manage.py migrate`
-- `python manage.py loaddata`
+- `python manage.py loaddata assets/initial` (_Installed 20 object(s) from 1 fixture(s)_)
+- `python manage.py runserver`
+
+#### 2) Pre-Workshop Instructions/Requirements (dockerized)
+- `docker-compose up --force-recreate --build`
 
 #### Test your setup
-- `python -v`
-- `python manage.py runserver`
 - Open your browser and visit `http://127.0.0.1:8000/admin` and try to login with `admin:12345`
 
-This is the minimum workshop setup. Please prepare the project as describe above.
+----
+
 
 ## Exercise overview
 1) Write your first TypeDefs and resolvers
@@ -53,6 +61,10 @@ Don't forget to change the used schema in the core settings (L51).
 ## Django Cheatsheet
 - `SELECT * FROM <table>` -> `<ModelName>.objects.all()`
 - `SELECT * FROM <table> WHERE id=<id>` -> `<ModelName>.objects.get(id=id)` (raises if not exist)
+
+
+## Database overview
+![Database overview](assets/images/core_module.png)
 
 
 #### License

@@ -1,0 +1,220 @@
+[
+{
+  "model": "core.professor",
+  "pk": 1,
+  "fields": {
+    "name": "Prof. Olivia",
+    "age": 44
+  }
+},
+{
+  "model": "core.professor",
+  "pk": 2,
+  "fields": {
+    "name": "Prof. Jacob",
+    "age": 51
+  }
+},
+{
+  "model": "core.professor",
+  "pk": 3,
+  "fields": {
+    "name": "Prof. Emily",
+    "age": 66
+  }
+},
+{
+  "model": "core.student",
+  "pk": 1,
+  "fields": {
+    "name": "John",
+    "age": 22,
+    "semester": 1,
+    "favourite_module": 1
+  }
+},
+{
+  "model": "core.student",
+  "pk": 2,
+  "fields": {
+    "name": "Ponnappa",
+    "age": 32,
+    "semester": 3,
+    "favourite_module": 1
+  }
+},
+{
+  "model": "core.student",
+  "pk": 3,
+  "fields": {
+    "name": "Mia",
+    "age": 17,
+    "semester": 1,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 4,
+  "fields": {
+    "name": "Peter",
+    "age": 24,
+    "semester": 2,
+    "favourite_module": 4
+  }
+},
+{
+  "model": "core.student",
+  "pk": 5,
+  "fields": {
+    "name": "Natalie",
+    "age": 22,
+    "semester": 1,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 6,
+  "fields": {
+    "name": "Ang",
+    "age": 25,
+    "semester": 3,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 7,
+  "fields": {
+    "name": "Salome",
+    "age": 25,
+    "semester": 1,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 8,
+  "fields": {
+    "name": "Trevor",
+    "age": 22,
+    "semester": 1,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 9,
+  "fields": {
+    "name": "Verona",
+    "age": 21,
+    "semester": 1,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 10,
+  "fields": {
+    "name": "Jackie",
+    "age": 18,
+    "semester": 1,
+    "favourite_module": 3
+  }
+},
+{
+  "model": "core.student",
+  "pk": 11,
+  "fields": {
+    "name": "Desiree",
+    "age": 21,
+    "semester": 2,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.student",
+  "pk": 12,
+  "fields": {
+    "name": "Hayman",
+    "age": 32,
+    "semester": 3,
+    "favourite_module": null
+  }
+},
+{
+  "model": "core.module",
+  "pk": 1,
+  "fields": {
+    "name": "Math",
+    "professor": 3,
+    "students": [
+      1,
+      2,
+      3,
+      9
+    ]
+  }
+},
+{
+  "model": "core.module",
+  "pk": 2,
+  "fields": {
+    "name": "German",
+    "professor": 2,
+    "students": [
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "core.module",
+  "pk": 3,
+  "fields": {
+    "name": "Physics",
+    "professor": 3,
+    "students": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "core.module",
+  "pk": 4,
+  "fields": {
+    "name": "IT",
+    "professor": 2,
+    "students": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$jjhYUPjoR0n8$vFCtZP6FyEV5Y1jNvkMVqvn2ACdPQyxKoY+LfpY2D8w=",
+    "last_login": "2019-05-24T06:23:43.164Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-05-24T06:23:09.322Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
