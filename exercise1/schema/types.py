@@ -1,22 +1,22 @@
 import graphene
 
 
+# DOCS: https://docs.graphene-python.org/en/latest/types/scalars/
 class ProfessorType(graphene.ObjectType):
     id = graphene.ID()
     name = graphene.String(required=True)
-    # TODO: Add a Scalar to resolve the age
-    # https://docs.graphene-python.org/en/latest/types/scalars/
+    # TODO 1: add a field to resolve the age
 
 
 class StudentType(graphene.ObjectType):
     pass
-    # TODO: id
-    # TODO: age
-    # TODO: name
-    # TODO: semester
+    # TODO 2: id
+    # TODO 3: age
+    # TODO 4: name
+    # TODO 5: semester
 
 
 class ModuleType(graphene.ObjectType):
     pass
-    # TODO: id
-    # TODO: name
+    # TODO 6: id
+    # TODO 7: name
