@@ -1,13 +1,14 @@
 # Exercise 1
 
+Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51): `exercise1.schema.schema`
+
 ## 1) Write TypeDefs
 - Open [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise1/schema/types.py)
-- TODO: Fill the fields with the related scalar types
-- INFO: The fields you define in the TypeDefs will be queryable on your schema
+- Fill the fields with the related scalar types
 
 ## 2) Write resolvers
 - Open [query.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise1/schema/query.py)
-- TODO: Define the fields and resolvers
+- Define the fields and resolvers
 
 ## Questions
 
