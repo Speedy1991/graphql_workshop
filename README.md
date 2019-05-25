@@ -25,6 +25,8 @@ This is the minimum workshop setup. Please prepare the project as described belo
 - `python manage.py runserver`
 
 #### 2) Pre-Workshop Instructions/Requirements (dockerized)
+- `git clone https://github.com/Speedy1991/graphql_workshop.git`
+- `cd graphql_workshop`
 - `docker-compose up --force-recreate --build`
 
 #### Test your setup
