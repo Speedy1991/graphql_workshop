@@ -16,8 +16,8 @@
 This is the minimum workshop setup. Please prepare the project as described below.
 
 #### 1) Pre-Workshop Instructions/Requirements (install)
-- `git clone https://github.com:Speedy1991/graphql_workshop.git`
-- `cd graphql-workshop`
+- `git clone https://github.com/Speedy1991/graphql_workshop.git`
+- `cd graphql_workshop`
 - If you want to use a virtual environment click [here](https://virtualenv.pypa.io/en/stable/userguide/) for instructions 
 - `pip install -r requirements.txt`
 - `python manage.py migrate`
