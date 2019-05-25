@@ -51,6 +51,11 @@ This is the minimum workshop setup. Please prepare the project as described belo
 This is a very exercise-heavy workshop. You'll finde the exercises in the _graphql_workshop/exercise[number]_ directory.
 Don't forget to change the used schema in the [settings](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51).
 
+You find some helpful content on the Docs:
+- [graphene](https://docs.graphene-python.org/en/latest/types/)
+- [django_graphene](https://docs.graphene-python.org/projects/django/en/latest/queries/)
+- [django queries](https://docs.djangoproject.com/en/2.2/topics/db/queries/)
+
 ## Helpful shortcuts
 - _TODO:_ This is **your** job
 - _DOCS:_ This will give you a link to the specific doc page
