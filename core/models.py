@@ -1,5 +1,6 @@
-from django.db import models
 from enum import IntEnum
+from django.db import models
+from polymorphic.models import PolymorphicModel
 
 
 class Semester(IntEnum):
@@ -38,3 +39,18 @@ class Module(models.Model):
 
     def __str__(self):
         return self.name
+
+
+# Polymorphic Example
+class Project(PolymorphicModel):
+    topic = models.CharField(max_length=30)
+    professor = models.ForeignKey(Professor, on_delete=models.CASCADE)
+    students = models.ManyToManyField(Student, blank=True)
+
+
+class ArtProject(Project):
+    artist = models.CharField(max_length=30)
+
+
+class ResearchProject(Project):
+    supervisor = models.CharField(max_length=30)

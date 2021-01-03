@@ -21,7 +21,7 @@ This is the minimum workshop setup. Please prepare the project as described belo
 - If you want to use a virtual environment click [here](https://virtualenv.pypa.io/en/stable/userguide/) for instructions 
 - `pip install -r requirements.txt`
 - `python manage.py migrate`
-- `python manage.py loaddata assets/initial` (_Installed 20 object(s) from 1 fixture(s)_)
+- `python manage.py loaddata assets/initial` (_Installed 26 object(s) from 1 fixture(s)_)
 - `python manage.py runserver`
 
 #### 2) Pre-Workshop Instructions/Requirements (dockerized)
@@ -46,7 +46,8 @@ This is the minimum workshop setup. Please prepare the project as described belo
     * Replace mutation arguments with an _InputType_
     * Use _EnumType_
 7) Interfaces
-8) Some LiveCoding with AbstractTypes, Polymorphic, etc.
+8) Polymorphic & interfaces
+9) Some LiveCoding with AbstractTypes, etc.
 
 ## Working through it
 This is a very exercise-heavy workshop. You'll finde the exercises in the _graphql_workshop/exercise[number]_ directory.

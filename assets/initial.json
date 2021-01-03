@@ -216,5 +216,59 @@
     "groups": [],
     "user_permissions": []
   }
+},
+{
+  "model": "core.project",
+  "pk": 1,
+  "fields": {
+    "polymorphic_ctype": 10,
+    "topic": "Department Party",
+    "professor": 1,
+    "students": [1, 2, 3, 9]
+  }
+},
+{
+  "model": "core.project",
+  "pk": 2,
+  "fields": {
+    "polymorphic_ctype": 10,
+    "topic": "Department Party 2",
+    "professor": 1,
+    "students": [1, 2]
+  }
+},
+{
+  "model": "core.project",
+  "pk": 3,
+  "fields": {
+    "polymorphic_ctype": 12,
+    "topic": "Painting with Tim",
+    "professor": 1,
+    "students": [9]
+  }
+},
+{
+  "model": "core.project",
+  "pk": 4,
+  "fields": {
+    "polymorphic_ctype": 11,
+    "topic": "Swallow Aerodynamics",
+    "professor": 1,
+    "students": []
+  }
+},
+{
+  "model": "core.artproject",
+  "pk": 3,
+  "fields": {
+    "artist": "T. Turner"
+  }
+},
+{
+  "model": "core.researchproject",
+  "pk": 4,
+  "fields": {
+    "supervisor": "Dr. Winter"
+  }
 }
 ]
