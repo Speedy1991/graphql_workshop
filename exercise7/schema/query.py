@@ -7,10 +7,8 @@ class Query(graphene.ObjectType):
     professors = graphene.List(ProfessorType)
     students = graphene.List(StudentType)
     modules = graphene.List(ModuleType, starts_with=graphene.String(required=False))
-    people = graphene.List(PersonInterface)
-
-    def resolve_people(self, info):
-        return [*Professor.objects.all(), *Student.objects.all()]
+    # TODO 6: add people which is a List of PersonInterface
+    people = graphene.List(PersonInterface, required=True)
 
     def resolve_professors(self, info, **kwargs):
         return Professor.objects.all()
@@ -22,3 +20,7 @@ class Query(graphene.ObjectType):
         if starts_with is None:
             return Module.objects.all()
         return Module.objects.filter(name__startswith=starts_with)
+
+    # TODO 7: Uncomment this resolver
+    #def resolve_people(self, info):
+    #    return [*Professor.objects.all(), *Student.objects.all()]

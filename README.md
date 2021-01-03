@@ -45,7 +45,8 @@ This is the minimum workshop setup. Please prepare the project as described belo
 6) Refactor
     * Replace mutation arguments with an _InputType_
     * Use _EnumType_
-7) Some LiveCoding with AbstractTypes, Interfaces, Polymorphic, etc.
+7) Interfaces
+8) Some LiveCoding with AbstractTypes, Polymorphic, etc.
 
 ## Working through it
 This is a very exercise-heavy workshop. You'll finde the exercises in the _graphql_workshop/exercise[number]_ directory.
