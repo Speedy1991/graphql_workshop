@@ -56,6 +56,7 @@ class ModuleType(DjangoObjectType):
 
 
 class ProjectInterface(graphene.Interface):
+    id = graphene.ID(required=True)
     topic = graphene.String()
     students = graphene.List(StudentType)
 

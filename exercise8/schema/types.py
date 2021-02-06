@@ -59,7 +59,8 @@ class ModuleType(DjangoObjectType):
 
 
 class ProjectInterface(graphene.Interface):
-    # TODO 4  topic and students are shared fields - add them to the interface
+    id = graphene.ID(required=True)
+    # TODO 4 id, topic and students are shared fields - add them to the interface
 
     def resolve_students(self, info):
         # Info: This is not a DjangoObjectType but an interface - therefore it is in our responsibility to resolve the students

@@ -26,6 +26,7 @@ Query:
     id
     name
     projects {
+      id
       topic
       students {
         id
@@ -33,11 +34,9 @@ Query:
       }
       __typename
       ... on ResearchProjectType {
-        id
         supervisor
       }
       ... on ArtProjectType {
-        id
         artist
       }
     }
@@ -48,7 +47,9 @@ Query:
 Result:
 
 ```
-"professors": [
+{
+  "data": {
+    "professors": [
       {
         "id": "1",
         "name": "Prof. Olivia",
@@ -59,6 +60,7 @@ Result:
         "name": "Prof. Jacob",
         "projects": [
           {
+            "id": "7",
             "topic": "Department Party 2",
             "students": [
               {
@@ -79,14 +81,13 @@ Result:
               }
             ],
             "__typename": "ArtProjectType",
-            "id": "7",
             "artist": "T. Turner"
           },
           {
+            "id": "8",
             "topic": "Painting with Tim",
             "students": [],
             "__typename": "ArtProjectType",
-            "id": "8",
             "artist": "Tim B."
           }
         ]
