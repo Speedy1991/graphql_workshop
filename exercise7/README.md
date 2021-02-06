@@ -1,6 +1,6 @@
 # Exercise 7
 
-Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51): `exercise7.schema.schema`
+Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L55): `exercise7.schema.schema`
 
 ## Interfaces
 

@@ -1,6 +1,6 @@
 # Exercise 2
 
-Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51): `exercise2.schema.schema`
+Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L55): `exercise2.schema.schema`
 
 ## Problem
 At the moment we can't query anything related (e.g. _modules_) on the _ProfessorType_

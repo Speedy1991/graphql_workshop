@@ -1,6 +1,6 @@
 # Exercise 4
 
-Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51): `exercise4.schema.schema`
+Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L55): `exercise4.schema.schema`
 
 ## Query with Arguments and add custom fields
 

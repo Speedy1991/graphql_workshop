@@ -1,6 +1,6 @@
 # Exercise 1
 
-Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51): `exercise1.schema.schema`
+Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L55): `exercise1.schema.schema`
 
 ## 1) Write TypeDefs
 - Open [types.py](https://github.com/Speedy1991/graphql_workshop/blob/master/exercise1/schema/types.py)

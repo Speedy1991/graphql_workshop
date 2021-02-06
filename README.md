@@ -51,7 +51,7 @@ This is the minimum workshop setup. Please prepare the project as described belo
 
 ## Working through it
 This is a very exercise-heavy workshop. You'll finde the exercises in the _graphql_workshop/exercise[number]_ directory.
-Don't forget to change the used schema in the [settings](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L51).
+Don't forget to change the used schema in the [settings](https://github.com/Speedy1991/graphql_workshop/blob/master/graphql_workshop/settings.py#L55).
 
 You find some helpful content on the Docs:
 - [graphene](https://docs.graphene-python.org/en/latest/types/)
