@@ -7,7 +7,7 @@ Fix the [schema](https://github.com/Speedy1991/graphql_workshop/blob/master/grap
 Refactor to use Django Polymorphic models
 
 ## Database overview
-![Database overview](assets/images/core_researchproject.png)
+![Database overview](../assets/images/core_researchproject.png)
 
 
 
