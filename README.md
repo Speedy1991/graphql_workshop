@@ -21,7 +21,7 @@ This is the minimum workshop setup. Please prepare the project as described belo
 - If you want to use a virtual environment click [here](https://virtualenv.pypa.io/en/stable/userguide/) for instructions 
 - `pip install -r requirements.txt`
 - `python manage.py migrate`
-- `python manage.py loaddata assets/initial` (_Installed 26 object(s) from 1 fixture(s)_)
+- `python manage.py loaddata assets/initial` (_Installed 91 object(s) from 1 fixture(s)_)
 - `python manage.py runserver`
 
 #### 2) Pre-Workshop Instructions/Requirements (dockerized)

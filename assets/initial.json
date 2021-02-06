@@ -1,5 +1,585 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-02-06T13:17:32.497Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Prof. Emily",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"research project\", \"object\": \"ResearchProject object (5)\"}}, {\"added\": {\"name\": \"art project\", \"object\": \"ArtProject object (6)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-02-06T13:18:22.569Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Prof. Jacob",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"art project\", \"object\": \"ArtProject object (7)\"}}, {\"added\": {\"name\": \"art project\", \"object\": \"ArtProject object (8)\"}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add module",
+    "content_type": 7,
+    "codename": "add_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change module",
+    "content_type": 7,
+    "codename": "change_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete module",
+    "content_type": 7,
+    "codename": "delete_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view module",
+    "content_type": 7,
+    "codename": "view_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add professor",
+    "content_type": 8,
+    "codename": "add_professor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change professor",
+    "content_type": 8,
+    "codename": "change_professor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete professor",
+    "content_type": 8,
+    "codename": "delete_professor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view professor",
+    "content_type": 8,
+    "codename": "view_professor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add student",
+    "content_type": 9,
+    "codename": "add_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change student",
+    "content_type": 9,
+    "codename": "change_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete student",
+    "content_type": 9,
+    "codename": "delete_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view student",
+    "content_type": 9,
+    "codename": "view_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add project",
+    "content_type": 10,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change project",
+    "content_type": 10,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete project",
+    "content_type": 10,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view project",
+    "content_type": 10,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add art project",
+    "content_type": 11,
+    "codename": "add_artproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change art project",
+    "content_type": 11,
+    "codename": "change_artproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete art project",
+    "content_type": 11,
+    "codename": "delete_artproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view art project",
+    "content_type": 11,
+    "codename": "view_artproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add research project",
+    "content_type": 12,
+    "codename": "add_researchproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change research project",
+    "content_type": 12,
+    "codename": "change_researchproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete research project",
+    "content_type": 12,
+    "codename": "delete_researchproject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view research project",
+    "content_type": 12,
+    "codename": "view_researchproject"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$4grHAAnl36em$IIkQdn58abNVb7inaVS8PJMUi4kd/HQA0BN8kZ6vKts=",
+    "last_login": "2021-02-06T13:04:45.183Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-05-24T06:23:09.322Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "module"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "professor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "student"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "core",
+    "model": "artproject"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "core",
+    "model": "researchproject"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "39p9ioed72qax6wzsct86xcb5os4vetv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOAgGX7j0DGWZAqgaS0q4a764kXWjyV_-9vF0E3NYStp6WMLO4CBCn3y8iPVMdgB9Y701Sq-syRzkUedAub43T63q4f4GCvYxsTk5PVikL0RITGO0VAIPW_J2zEyJ4ZCIN7M_ZsnHZZWPRA2JE8f4AzZs38g:1l8NGX:1reMXxo3q4Nl1TvUfVuSFP2GEK0g2K20Gj7o-eKvKPQ",
+    "expire_date": "2021-02-20T13:04:45.192Z"
+  }
+},
+{
   "model": "core.professor",
   "pk": 1,
   "fields": {
@@ -200,73 +780,83 @@
   }
 },
 {
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$150000$jjhYUPjoR0n8$vFCtZP6FyEV5Y1jNvkMVqvn2ACdPQyxKoY+LfpY2D8w=",
-    "last_login": "2019-05-24T06:23:43.164Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "admin@example.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2019-05-24T06:23:09.322Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
   "model": "core.project",
-  "pk": 1,
-  "fields": {
-    "polymorphic_ctype": 10,
-    "topic": "Department Party",
-    "professor": 1,
-    "students": [1, 2, 3, 9]
-  }
-},
-{
-  "model": "core.project",
-  "pk": 2,
-  "fields": {
-    "polymorphic_ctype": 10,
-    "topic": "Department Party 2",
-    "professor": 1,
-    "students": [1, 2]
-  }
-},
-{
-  "model": "core.project",
-  "pk": 3,
+  "pk": 5,
   "fields": {
     "polymorphic_ctype": 12,
-    "topic": "Painting with Tim",
-    "professor": 1,
-    "students": [9]
+    "topic": "Department Party",
+    "professor": 3,
+    "students": [
+      1,
+      3,
+      4,
+      6
+    ]
   }
 },
 {
   "model": "core.project",
-  "pk": 4,
+  "pk": 6,
   "fields": {
     "polymorphic_ctype": 11,
     "topic": "Swallow Aerodynamics",
-    "professor": 1,
+    "professor": 3,
+    "students": [
+      8,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "core.project",
+  "pk": 7,
+  "fields": {
+    "polymorphic_ctype": 11,
+    "topic": "Department Party 2",
+    "professor": 2,
+    "students": [
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "core.project",
+  "pk": 8,
+  "fields": {
+    "polymorphic_ctype": 11,
+    "topic": "Painting with Tim",
+    "professor": 2,
     "students": []
   }
 },
 {
   "model": "core.artproject",
-  "pk": 3,
+  "pk": 6,
+  "fields": {
+    "artist": "Mr. Humdu"
+  }
+},
+{
+  "model": "core.artproject",
+  "pk": 7,
   "fields": {
     "artist": "T. Turner"
   }
 },
 {
+  "model": "core.artproject",
+  "pk": 8,
+  "fields": {
+    "artist": "Tim B."
+  }
+},
+{
   "model": "core.researchproject",
-  "pk": 4,
+  "pk": 5,
   "fields": {
     "supervisor": "Dr. Winter"
   }
