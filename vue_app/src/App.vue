@@ -6,13 +6,40 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import { defineComponent } from "@vue/composition-api";
+import HelloWorld from './components/HelloWorld.vue';
+import { defineComponent } from '@vue/composition-api';
+import { useQuery } from '@vue/apollo-composable';
+import gql from 'graphql-tag';
+
+const ProfessorQuery = gql`
+  query ProfessorQuery {
+    professors {
+      id
+      projects {
+        id
+        students {
+          id
+          name
+          age
+        }
+        __typename
+        ... on ResearchProjectType {
+          supervisor
+        }
+      }
+    }
+  }
+`;
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
   components: {
     HelloWorld,
+  },
+  setup() {
+    const { result, loading } = useQuery(ProfessorQuery);
+    console.log(loading, result);
+    return {};
   },
 });
 </script>
